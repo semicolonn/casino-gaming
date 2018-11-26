@@ -1,0 +1,3 @@
+fulano,teste,male,24,belo,ead,150,130
+ciclano,vida,female,36,conta,escola,12,24
+beltrano,marca,female,41,bet,colegio,380,500

@@ -1,0 +1,8 @@
+TESTAR USER
+g++ -o tests/UserTest/UserTest tests/UserTest/UserTest.cpp components/User/User.o
+
+TESTAR SOLITAIRE
+g++ -o tests/SolitaireTest/SolitaireTest tests/SolitaireTest/SolitaireTest.cpp components/Solitaire/Solitaire.o components/OnePlayer/OnePlayer.o components/Dealer/Dealer.o components/User/User.o
+
+TESTAR DATABASE
+g++ -o tests/DataTest/DataTest tests/DataTest/DataTest.cpp components/Database/Database.o components/User/User.o
